@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(
+      35deg,
+      rgba(0, 0, 255, 0.287),
+      rgba(135, 207, 235, 0.397)
+    ),
+    url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+  border-radius: 10px;
+  padding: 20px 50px;
+  background: linear-gradient(
+    35deg,
+    rgba(25, 27, 27, 0.719),
+    rgba(25, 27, 27, 0.719)
+  );
+  font-size: 18px;
+}
+#survey-form {
+  display: block;
+  border-radius: 10px;
+  background: linear-gradient(
+    35deg,
+    rgba(25, 27, 27, 0.719),
+    rgba(25, 27, 27, 0.719)
+  );
+}
+#survey-form {
+  padding: 2em 5em;
+  font-size: 18px;
+}
+#name-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  row-gap: 10px;
+}
+#name {
+  padding: 0.5em 0em 0.5em 0em;
+  border-radius: 2px;
+  border: none;
+}
+#email-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  row-gap: 10px;
+}
+#email {
+  padding: 0.5em 0em 0.5em 0em;
+  border-radius: 2px;
+  border: none;
+}
+#number-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  row-gap: 10px;
+}
+#number {
+  padding: 0.5em 0em 0.5em 0em;
+  border-radius: 2px;
+  border: none;
+}
+#dropdown-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  row-gap: 10px;
+}
+#dropdown {
+  padding: 0.5em 0em 0.5em 0em;
+  border-radius: 2px;
+  border: none;
+}
+#recommend-label {
+  display: block;
+  padding: 10px 0px;
+  line-height: 2em;
+}
+.recommend {
+  display: inline;
+  padding: 5px;
+  margin-right: 10px;
+}
+#improvement-label {
+  display: block;
+  padding: 10px 0px;
+  line-height: 2em;
+}
+.improvement {
+  display: inline;
+  padding: 5px;
+  margin-right: 10px;
+}
+#comments {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#submit {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0.5em;
+  border-radius: 2px;
+  border: none;
+  background-color: rgb(26, 206, 26);
+  font-size: 1.125em;
+}
